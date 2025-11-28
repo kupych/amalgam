@@ -1,0 +1,121 @@
+
+11:39:33.148 [info] Loading 164 CA(s) from :otp store
+
+11:39:33.262 id=1 [debug] handled request client -> server initialize in 69ms
+
+11:39:33.271 [debug] sent notification server -> client window/logMessage
+
+11:39:33.272 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+11:39:33.277 [debug] NextLS v0.23.4 has initialized!
+
+11:39:33.277 [debug] sent notification server -> client window/logMessage
+
+11:39:33.278 [debug] Log file located at /Users/stefankupych/Work/amalgam/lib/mix/tasks/.elixir-tools/next-ls.log
+
+11:39:33.282 [debug] sent notification server -> client window/logMessage
+
+11:39:33.282 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+11:39:33.282 id=37 [debug] sent request server -> client client/registerCapability
+
+11:39:34.941 [debug] sent notification server -> client window/logMessage
+
+11:39:34.941 [debug] Booting runtimes...
+
+11:39:34.944 id=6 [debug] sent request server -> client window/workDoneProgress/create
+
+11:39:34.948 [debug] sent notification server -> client $/progress
+
+11:39:34.959 [debug] sent notification server -> client window/logMessage
+
+11:39:34.959 [info] Beginning DB migration...
+
+11:39:34.963 [debug] sent notification server -> client window/logMessage
+
+11:39:34.963 [info] Database is on the latest version: 7
+
+11:39:34.963 [debug] sent notification server -> client window/logMessage
+
+11:39:34.963 [info] Finished DB migration...
+
+11:39:34.963 [debug] sent notification server -> client window/logMessage
+
+11:39:34.963 [info] Booting runtime for amalgam.
+
+- elixir: /Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin/elixir
+- zombie wrapper script: /Users/stefankupych/Library/Application Support/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /Users/stefankupych/Work/amalgam
+- command: /Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin/elixir --no-halt --sname nextls-runtime-1764347974963303000 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3J25leHQtbHMtMTc2NDM0Nzk3MzE2MDg4Mjc5MkBNQlAtS1VQWUNIUwAAAOYAAAAAaSnQRg==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin:/Users/stefankupych/Library/Application Support/.burrito/next_ls_erts-15.2_0.23.4/bin:/Users/stefankupych/.venv/bin:/Users/stefankupych/.local/share/mise/installs/python/3.14.0/bin:/Users/stefankupych/.local/share/mise/installs/ruby/3.4.5/bin:/Users/stefankupych/.local/share/mise/installs/uv/0.8.14/uv-aarch64-apple-darwin:/Users/stefankupych/.local/share/mise/installs/node/21.6.0/bin:/Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin:/Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/.mix/escripts:/Users/stefankupych/.local/share/mise/installs/erlang/27.1.1/bin:/Users/stefankupych/.local/share/mise/installs/rust/stable/bin:/Users/stefankupych/.local/share/mise/installs/go/1.22.5/bin:/Users/stefankupych/.local/share/mise/installs/haskell/9.10-latest/bin:/Users/stefankupych/.local/share/mise/installs/zig/ref-master/bin:/Users/stefankupych/.local/share/mise/installs/gleam/1.8.0/bin:/Users/stefankupych/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/opt/podman/bin:/Applications/Ghostty.app/Contents/MacOS:/Users/stefankupych/.local/share/nvim/lazy/fzf/bin
+
+
+11:39:34.964 [debug] handled notification client -> server initialized in 1698ms
+
+11:39:35.246 [debug] sent notification server -> client window/logMessage
+
+11:39:35.246 [debug] Unchecked dependencies for environment dev:
+* sourceror (Hex package)
+  the dependency is not available, run "mix deps.get"
+
+
+11:39:35.246 [debug] sent notification server -> client $/progress
+
+11:39:35.248 [debug] sent notification server -> client window/logMessage
+
+11:39:35.248 [error] Runtime for folder amalgam failed to initialize
+
+11:39:35.248 [debug] sent notification server -> client window/logMessage
+
+11:39:35.248 [info] Booting runtime for amalgam.
+
+- elixir: /Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin/elixir
+- zombie wrapper script: /Users/stefankupych/Library/Application Support/.burrito/next_ls_erts-15.2_0.23.4/lib/next_ls-0.23.4/priv/cmd
+- working_dir: /Users/stefankupych/Work/amalgam
+- command: /Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin/elixir --no-halt --sname nextls-runtime-1764347975248277833 --cookie HHYKTHK2JHVUZI3HDBMAF64GPJFPN4AV4Y7CQDE27SSFQKZPVAFQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3J25leHQtbHMtMTc2NDM0Nzk3MzE2MDg4Mjc5MkBNQlAtS1VQWUNIUwAAAOYAAAAAaSnQRg==
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin:/Users/stefankupych/Library/Application Support/.burrito/next_ls_erts-15.2_0.23.4/bin:/Users/stefankupych/.venv/bin:/Users/stefankupych/.local/share/mise/installs/python/3.14.0/bin:/Users/stefankupych/.local/share/mise/installs/ruby/3.4.5/bin:/Users/stefankupych/.local/share/mise/installs/uv/0.8.14/uv-aarch64-apple-darwin:/Users/stefankupych/.local/share/mise/installs/node/21.6.0/bin:/Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/bin:/Users/stefankupych/.local/share/mise/installs/elixir/1.17.3-otp-27/.mix/escripts:/Users/stefankupych/.local/share/mise/installs/erlang/27.1.1/bin:/Users/stefankupych/.local/share/mise/installs/rust/stable/bin:/Users/stefankupych/.local/share/mise/installs/go/1.22.5/bin:/Users/stefankupych/.local/share/mise/installs/haskell/9.10-latest/bin:/Users/stefankupych/.local/share/mise/installs/zig/ref-master/bin:/Users/stefankupych/.local/share/mise/installs/gleam/1.8.0/bin:/Users/stefankupych/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/opt/podman/bin:/Applications/Ghostty.app/Contents/MacOS:/Users/stefankupych/.local/share/nvim/lazy/fzf/bin
+
+
+11:39:35.249 [debug] sent notification server -> client window/logMessage
+
+11:39:35.249 [error] The runtime for amalgam has crashed with reason: {:shutdown, :unchecked_dependencies}
+
+11:39:35.250 [debug] sent notification server -> client window/logMessage
+
+11:39:35.250 id=197 [debug] sent request server -> client window/showMessageRequest
+
+11:39:35.250 [info] The runtime for amalgam has successfully shut down.
+
+11:39:39.699 [debug] sent notification server -> client window/logMessage
+
+11:39:39.699 [info] Not running `mix deps.get`
+
+11:39:40.906 [debug] handled notification client -> server textDocument/didChange in 10ms
+
+11:39:49.858 id=2 [debug] handled request client -> server shutdown in 2ms
+
+11:39:49.861 [debug] handled notification client -> server textDocument/didSave in 5ms
